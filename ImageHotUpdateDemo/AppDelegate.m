@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     
     //https://gitee.com/qymiu/ImageHotUpdateDemo/blob/master/imagehotupdate.json
-    NSString * patchUrlStr = @"https://gitee.com/qymiu/ImageHotUpdateDemo/blob/master/imagehotupdate.json";
+    NSString * patchUrlStr = @"https://github.com/cactusqy/ImageHotUpdate/blob/master/imagehotupdate.json";
     [UIImage yf_updatePatchFrom: patchUrlStr];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
